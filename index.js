@@ -4,7 +4,8 @@
 
 const Blueprint = require('./blueprint'); //TODO move to regular package once changes are merged
 const fs = require('fs');
-const str = fs.readFileSync('./balancers.txt', 'utf8');
+const path = require('path');
+const str = fs.readFileSync(path.join(__dirname, 'balancers.txt'), 'utf8');
 
 let book =  Blueprint.getBook(str);
 for(let key in book) {
