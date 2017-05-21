@@ -1,0 +1,25 @@
+{
+  "name": "factorio-balancers",
+  "version": "1.0.0",
+  "description": "Collection of balancer blueprints for Factorio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aekrylov/factorio-balancers.git"
+  },
+  "keywords": [
+    "factorio"
+  ],
+  "author": "Anton Krylov",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/aekrylov/factorio-balancers/issues"
+  },
+  "homepage": "https://github.com/aekrylov/factorio-balancers#readme",
+  "dependencies": {
+    "factorio-blueprint": "^2.0.14"
+  }
+}
